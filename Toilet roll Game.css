@@ -1,0 +1,124 @@
+body{
+  cursor: none;
+  background: white;
+}
+.paper1, .paper2, .paper3, .paper4, .paper5, .paper6, .paper7, .paper8, .paper9, .paper10, .paper11, .paper12, .paper13, .paper14, .paper15, .paper16, .paper17, .paper18, .paper19{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  width: 75px;
+  border-radius: 40px;
+  border: 2px solid black;
+  top: -5em;
+  background: white;
+}
+.hole{
+  height: 25px;
+  width: 25px;
+  border: 2px solid #795548;
+  border-radius: 100%;
+  background: #795548;
+  position: absolute;
+  top: 1.5em;
+}
+.package{
+  height: 120px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background: #EEEEEE;
+}
+.logo{
+  width: 150px;
+  height: 50px;
+  background: green;
+  position: relative;
+  top: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+.shopping{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  cursor: none;
+}
+.cart{
+  height: 150px;
+  width: 150px;
+  cursor: none;
+  position: absolute;
+  bottom: 0;
+}
+.dropper{
+  width: 1300px;
+  height: 10px;
+  display: flex;
+  top: -5em;
+  position: absolute;
+  left: 6em;
+}
+.floor{
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: grey;
+}
+.score{
+  position: absolute;
+  top: -0.5em;
+  right: 1em;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.tcont{
+  height: 10px;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.end{
+  height: 100%;
+  width: 100%;
+  background: black;
+  background-size: cover;
+  position: absolute;
+  top: -50em;
+  left: 0;
+  justify-content: center;
+  display: flex;
+  transition: .5s all ease;
+}
+.msgcont{
+  height: 300px;
+  width: 500px;
+  border: 5px solid white;
+  position: absolute;
+  top: 1em;
+  font-family: sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: white; 
+}
+.new{
+  height: 50px;
+  width: 100px;
+  background: #7CB342;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+@keyframes fall {
+  from {transform: translate(0px);}
+  to{transform: translate(0px, 1000px);}
+}
